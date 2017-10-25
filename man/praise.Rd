@@ -4,8 +4,16 @@
 \alias{praise}
 \title{Send some praise}
 \usage{
-praise()
+praise(name = "Kim")
+}
+\arguments{
+\item{name}{character, the name of the person you want to praise}
 }
 \description{
-Praise me at critical times in my life
+Praise someone at critical times in their life
+}
+\examples{
+# I'm going to deliver some praise
+praise()
+
 }
